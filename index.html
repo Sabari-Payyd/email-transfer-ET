@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Request</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap");
+      body {
+        font-family: "Outfit", Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        color: #646464;
+      }
+      .container {
+        max-width: 500px;
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: left;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #e7e7e7;
+      }
+      .header img {
+        height: 30px;
+      }
+      .title {
+        color: #007bff;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .content {
+        margin-top: 20px;
+      }
+      .box {
+        background: #f0f8ff;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .details-box {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+      }
+      .details-box div {
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+      }
+      .status {
+        color: #0ea00e;
+        font-weight: bold;
+      }
+      .button {
+        display: block;
+        /* width: 100%; */
+        background-color: #007bff;
+        color: white !important;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      .footer {
+        margin-top: 20px;
+
+        color: #666;
+        font-size: 14px;
+      }
+
+      /* New Styles */
+
+      .ul-checklist {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+      }
+      .ul-checklist p {
+        margin: 0;
+      }
+      .ul-checklist li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .footer_link {
+        color: #0060ff;
+        text-decoration: none;
+      }
+
+      .b_line {
+        display: block;
+        border-bottom: 1px solid #e7e7e7;
+        margin: 25px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://cdn.mcauto-images-production.sendgrid.net/96907ac92c781eb3/ce6198b3-c951-4e9d-acc8-74ce49a56319/174x44.png"
+          alt="Payyd" />
+      </div>
+
+      <p class="title">You've been invited to receive funds on Payyd!</p>
+
+      <p>Hello!</p>
+
+      <p>
+        {{sender_name}} wants to send you funds through Payyd, a fast and secure way to send and receive money
+        globally.
+      </p>
+
+      <p>
+        To receive the funds, you'll just need to create your Payyd account — it takes less than a minute, no
+        ID or documentation required.
+      </p>
+
+      <ul class="ul-checklist">
+        <li><p>✅ Signing up is quick — takes less than a minute</p></li>
+        <li><p>✅ No IDs or documents required</p></li>
+        <li><p>✅ Start sending and receiving funds globally right after signing up</p></li>
+      </ul>
+
+      <a href="#" class="button">Sign up Now</a>
+
+      <p>Or copy and paste this link in your browser: https://payydstack.payyd.money/login</p>
+
+      <p class="footer">
+        Have any questions? Visit <a href="#" class="footer_link">Payyd Support</a> to contact us.
+      </p>
+
+      <div class="footer">
+        <p>
+          Thanks,<br />
+          <br />
+          Payyd Team
+        </p>
+
+        <span class="b_line"></span>
+
+        <p style="color: #aaaaaa">Payyd HQ-166 Geary Str STE 1500 #1021, San Francisco, CA 94108, USA</p>
+        <p style="color: #aaaaaa">payyd.money</p>
+        <p style="color: #aaaaaa">support@payyd.money</p>
+      </div>
+    </div>
+  </body>
+</html>
